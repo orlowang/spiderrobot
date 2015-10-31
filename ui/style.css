@@ -1,0 +1,209 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+:focus {
+	outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.clearfix:after,
+#fmSetting ul li:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+html,
+body{
+	-webkit-user-select: none;
+	user-select: none;
+	width: 100%;
+	height: 100%;
+	font-family: "Microsoft YaHei";
+}
+table tr th,
+table tr td{
+	vertical-align: bottom;
+  padding: 5px;
+}
+table tr th{
+  border-bottom: 2px solid #ddd;
+}
+table tr:nth-child(2n-1) td{
+	background-color: #dff0d8;
+}
+table tr:nth-child(2n) td{
+	background-color: #C5DCBC;
+}
+.fmlf{
+	float: left;
+	width: calc( 100% - 340px );
+	height: 100%;
+}
+.fmrg{
+	float: right;
+	width: 340px;
+}
+#fmtitle{
+	height: 32px;
+	width: 100%;
+	float: left;
+}
+#fmbody{
+	width: 100%;
+	padding-top: 32px;
+	box-sizing: border-box;
+	height: 100%;
+}
+#fmResults{
+	/*background-color: #e3e3e3;*/
+	height: 70%;
+}
+#fmResults table{
+	width: 100%;
+}
+#fmSetting{
+	padding: 20px;
+  box-sizing: border-box;
+}
+#fmSetting ul{
+	list-style:none;
+}
+#fmSetting ul li{
+	margin-bottom: 6px;
+}
+#fmSetting .value,
+#fmSetting .key{
+	display: inline-block;
+	float: left;
+}
+#fmSetting .value{
+	width: 200px;
+}
+#fmSetting .value input{
+	width: 100%;
+	box-sizing: border-box;
+}
+#fmSetting .value textarea{
+	width: 100%;
+	height: 200px;
+	resize: none;
+	box-sizing: border-box;
+}
+#fmSetting .key{
+	width: 100px;
+}
+.tit-0{
+	font-size: 16px;
+	border-bottom: 2px solid #ddd;
+	padding-bottom: 4px;
+	margin-bottom: 10px;
+}
+#fmLog{
+	height: 30%;
+	overflow: hidden;
+	background-color: #000;
+}
+#fmLog .content{
+	overflow: auto;
+	color: green;
+}
+#fmLog .content li{
+	padding-bottom: 4px;
+}
+#fmLog .content .time{
+	display: inline-block;
+	margin-right: 6px;
+}
+#fmLog .content{
+	-webkit-user-select: text;
+	user-select: text;
+}
